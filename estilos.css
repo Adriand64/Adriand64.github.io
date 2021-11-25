@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+}
+img,iframe{
+    border: 0.3em solid rgb(150, 105, 72);
+    border-radius: 1em;
+}
+p{
+    background-color: rgb(231, 205, 186);
+    font-family: Arial;
+}
+body{
+    background-color: antiquewhite;
+}
+header{
+    font-style: oblique;
+    font-size: x-large;
+    text-align: center;
+}
+article{
+    border-bottom:0.3em solid rgb(150, 105, 72);
+    border-top:0.3em solid rgb(150, 105, 72);
+    border-left:0.3em solid rgb(150, 105, 72);
+    border-radius: 1em;
+    
+    text-align: center;
+}
+article:nth-child(3){
+    border-right:0.3em solid rgb(150, 105, 72);
+    border-radius: 1em;
+}
+
+iframe{
+    width: 50%;
+}
+section{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}

@@ -1,0 +1,8 @@
+body{
+    text-align: center;
+    background-color: rgb(231, 205, 186);
+}
+img,iframe{
+    border: 0.3em solid rgb(150, 105, 72);
+    border-radius: 1em;
+}
